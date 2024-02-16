@@ -7,21 +7,22 @@
 I love UML diagrams! 
 ```mermaid
 graph LR
-  MPS["<u>MyPath Suite"] --> JS["<u>Jetstream"]
+  MPS[MyPath Suite] --> JS["Jetstream"]
   Product2 --> JS
   Product3... --> JS
-  JS --> DP["<u>Data Warehouse"]
+  JS --> DP["Data Warehouse"]
   JS --> EWA["Event-aware applications"]
   Product4 --> DP
   DP --> BI["Business Analitics"]
-    click MPS href "https://weldnorthed.atlassian.net/wiki/spaces/TECH/pages/132158718061/Imagine+MyPath+Suite" "MPS documentation"
-    click JS href "https://weldnorthed.atlassian.net/wiki/spaces/TECH/pages/1187709129/Jet+Stream+Event+Processing" "Jetstream documentation"
-    click DP href "https://weldnorthed.atlassian.net/wiki/spaces/ED/pages/483917911/Data+Platform" "Data Platform documentation"
+    %%click MPS href "https://weldnorthed.atlassian.net/wiki/spaces/TECH/pages/132158718061/Imagine+MyPath+Suite" "MPS documentation" _blank
+    %%click JS href "https://weldnorthed.atlassian.net/wiki/spaces/TECH/pages/1187709129/Jet+Stream+Event+Processing" "Jetstream documentation" _blank
+    %%click DP href "https://weldnorthed.atlassian.net/wiki/spaces/ED/pages/483917911/Data+Platform" "Data Platform documentation" _blank
 ```
-
-https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/
-https://mermaid.js.org/syntax/flowchart.html
-
+### Reference docs on how this was made
+- https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/
+- https://mermaid.js.org/syntax/flowchart.html
+  
+My goal is to create clickable diagrams with revision control. We're almost there.
 
 <!---
 carlos-edgenuity/carlos-edgenuity is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
